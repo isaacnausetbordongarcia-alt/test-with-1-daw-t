@@ -1,6 +1,9 @@
 function Home() {
     return(
+        <>
+        <Headers />
         <h1>Home</h1>
+        </>
     )
 }
 

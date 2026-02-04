@@ -1,3 +1,17 @@
 git init, para empezar el repositorio
 git remote add origin (url del repositorio), indicar donde se encuentra el repositorio remoto
 git add . , añadir todo al stage
+git commit -m "Asunto", crear un nuevo commit
+git branch main, cambiar la rama a main (crearla)
+git checkout main, mover a la rama main
+git push origin main, subir al repositorio remoto los ultimos commits
+
+git pull origin main, para bajar los ultimos cambios en vez de clonar el proyecto de nuevo
+    puede ocurrir que haya cambios locales que no se han subido al repositorio. Entonces
+        git stash, colocar en memoria los cambios que no quiero pero los puedo necesitar
+        
+npm install, al clonar el proyecto para copiar las dependencias
+
+--Info user--
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
